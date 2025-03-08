@@ -1,23 +1,15 @@
-//#include <stdio.h>
-//#include <stdlib.h>
+//#include<stdio.h>
+//int add(int num){
+// if(num <= 0){
+//    return 0;
 //
-//int main()
-//{
-//char item[50];
-//int count;
-//    FILE *file = fopen("example.txt","w");
-//    if(file==NULL)
-//    {
-//     printf("error opening the file for writing.\n");
-//    return 1;
 //}
-//for(count=0;count<=10;count++)
-//{
-//printf("enter a items:");
-//scanf("%s",&item);
-//fprintf(file,"%d:%s \n",count,&item);
+//if(num%2==0){
+//    return add(num-1);
+//
 //}
-//fclose(file);
-//printf("data written to file successfully.\n");
-//return 0;
+//return num + add(num-1);
+//}
+//int main(){
+//printf("%d",add(5));
 //}
